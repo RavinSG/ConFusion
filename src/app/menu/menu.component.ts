@@ -9,12 +9,16 @@ import {DISHES} from '../shared/dishes';
 })
 export class MenuComponent implements OnInit {
   dishes = DISHES;
-  dish: Dish = DISHES[0];
+  selectedDish: Dish;
 
   constructor() {
   }
 
   ngOnInit() {
+  }
+
+  onSelect(dish: Dish) {
+    this.selectedDish = dish;
   }
 
 }
