@@ -4,8 +4,8 @@ import {NgModule} from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDialogModule} from '@angular/material';
 import {MatFormFieldModule} from '@angular/material';
-import {MatInput} from '@angular/material/input';
-import {MatCheckboxModule} from '@angular/material';
+import {MatInputModule} from '@angular/material';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
@@ -55,7 +55,7 @@ import {LoginComponent} from './login/login.component';
     MatDialogModule,
     MatFormFieldModule,
     FormsModule,
-    MatInput,
+    MatInputModule,
     MatCheckboxModule
   ],
   entryComponents: [
